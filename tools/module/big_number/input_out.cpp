@@ -57,10 +57,9 @@ namespace tools {
             return binary_result;
         }
 
-
         std::string binary_to_decimal(const std::vector<u32>& binary) {
             if (binary.empty()) return "0";
-
+            if (binary.size() == 1 and binary[0] == 0) return "0";
             const u64 BASE = 1000000000; // 每块存储 9 位十进制数
             std::vector<u64> decimal_blocks; // 存储十进制大数的块（逆序）
 
@@ -92,65 +91,29 @@ namespace tools {
             return result;
         }
 
+        bool is_valid_number(const std::string& str) {
+            // 空字符串非法
+            if (str.empty()) {
+                return false;
+            }
 
-        void print_binary(const std::vector<u32>& binary) {
-            bool leading_zeros = true;
-            for (auto it = binary.rbegin(); it != binary.rend(); ++it) {
-                if (leading_zeros) {
-                    std::bitset<32> bits(*it);
-                    std::string bit_string = bits.to_string();
-                    size_t first_one = bit_string.find('1');
-                    if (first_one != std::string::npos) {
-                        std::cout << bit_string.substr(first_one);
-                        leading_zeros = false;
-                    }
+            // 第一个字符必须是数字或符号（+/-）
+            size_t start = 0;
+            if (str[0] == '+' || str[0] == '-') {
+                if (str.size() == 1) {
+                    return false; // 只有符号没有数字
                 }
-                else {
-                    std::cout << std::bitset<32>(*it);
+                start = 1; // 跳过符号
+            }
+
+            // 检查后续字符是否全为数字
+            for (size_t i = start; i < str.size(); ++i) {
+                if (!std::isdigit(str[i])) {
+                    return false; // 非数字字符非法
                 }
             }
-            if (leading_zeros) {
-                std::cout << "0";
-            }
-            std::cout << std::endl;
+
+            return true;
         }
-
-
-        int test() {
-            for (size_t i = 1; i < 20; i++) {
-                std::string decimal = "";  // 任意大十进制数
-                for (size_t j = 0; j < pow(2, i); j++)
-                {
-                    decimal += ('0' + (rand() / 3333) % 10);
-                }
-                auto t1 = tools::time::time_now();
-                auto binary = decimal_to_binary(decimal);
-                auto t2 = tools::time::time_now();
-                std::cout << "用时: " << (t2 - t1) << std::endl;
-                std::cout << "每位用时: " << (t2 - t1) / decimal.size() << std::endl;
-                //std::cout << "input: " << decimal << std::endl;
-                std::cout << "input.size(): " << decimal.size() << std::endl;
-                //std::cout << "out: "; print_binary(binary); std::cout << std::endl;
-                std::cout << "out.size(): " << binary.size() << std::endl;
-                std::cout << "exp 2^: " << i << std::endl;
-                std::cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << std::endl;
-                auto t3 = tools::time::time_now();
-                auto decimal2 = binary_to_decimal(binary);
-                auto t4 = tools::time::time_now();
-                std::cout << "用时: " << (t4 - t3) << std::endl;
-                std::cout << "每位用时: " << (t4 - t3) / decimal2.size() << std::endl;
-                //std::cout << "input: ";  print_binary(binary); std::cout << std::endl;
-                std::cout << "input.size(): " << binary.size() << std::endl;
-                //std::cout << "out: " << decimal2 << std::endl;
-                std::cout << "out.size(): " << decimal2.size() << std::endl;
-                std::cout << "exp 2^: " << i << std::endl;
-                std::cout << "input == out：" << (decimal == decimal2) << std::endl;
-        
-                std::cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << std::endl << std::endl << std::endl << std::endl;
-            }
-            return 0;
-        }
-
-
     }
 }

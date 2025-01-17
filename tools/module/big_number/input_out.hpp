@@ -15,9 +15,8 @@ namespace tools {
         // 将二进制（按 32 位块存储）转换为十进制字符串
         std::string binary_to_decimal(const std::vector<u32>& binary);
 
-        // 输出二进制表示（按块输出）
-        void print_binary(const std::vector<u32>& binary);
+        // 判断字符串是否为有效大数
+        bool is_valid_number(const std::string& str);
 
-        int test();
     }
 }

@@ -138,6 +138,7 @@
     <ClInclude Include="tools\base\error.hpp" />
     <ClInclude Include="tools\module\big_number\big_int.hpp" />
     <ClInclude Include="tools\module\big_number\input_out.hpp" />
+    <ClInclude Include="tools\module\big_number\test.hpp" />
     <ClInclude Include="tools\module\file.hpp" />
     <ClInclude Include="tools\module\file\file_data.hpp" />
     <ClInclude Include="tools\module\file\file_err.hpp" />

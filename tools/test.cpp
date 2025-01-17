@@ -1,12 +1,13 @@
-#include "./../tools/module/big_number/input_out.hpp"
-
+#include "./../tools/module/big_number/test.hpp"
 
 
 int main() {
-	tools::big_int::test();
-	//std::string str = "3478623476974126012167624600347862347697412601216762460034786234769741260121676246003478623476974126012167624600";
-	//auto n = tools::big_int::decimal_to_binary(str);
-	//auto str2 = tools::big_int::binary_to_decimal(n);
-	//std::cout << str2 << std::endl;
+	//tools::big_int::test_all();
+	tools::big_int::big_int a = { "17285691565913756196519563975" };
+    a = tools::big_int::big_int("141798415515");
+    std::cout << a.to_string() << std::endl;
+    std::cout << a.to_hex() << std::endl;
+    std::cout << a.to_bit() << std::endl;
+    std::cout << a.to_u32() << std::endl;
 	return 0;
 }
