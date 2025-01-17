@@ -18,6 +18,6 @@ namespace tools {
         // 输出二进制表示（按块输出）
         void print_binary(const std::vector<u32>& binary);
 
-        //int test();
+        int test();
     }
 }

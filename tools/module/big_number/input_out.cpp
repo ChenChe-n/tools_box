@@ -11,8 +11,8 @@ namespace tools {
             std::vector<u64> blocks;
 
             // 将十进制字符串分块存储
-            for (int i = decimal.size(); i > 0; i -= 9) {
-                int start = std::max(0, i - 9);
+            for (i64 i = decimal.size(); i > 0; i -= 9) {
+                i64 start = std::max(i64(0), i - 9);
                 blocks.push_back(std::stoull(decimal.substr(start, i - start)));
             }
 
@@ -26,7 +26,7 @@ namespace tools {
                 u64 remainder = 0;
 
                 // 按高精度处理每个块
-                for (int i = blocks.size() - 1; i >= 0; --i) {
+                for (i64 i = blocks.size() - 1; i >= 0; --i) {
                     u64 current = remainder * BASE + blocks[i];
                     blocks[i] = current >> 1;  // 商作为新的块值
                     remainder = current & 1; // 更新余数
@@ -84,7 +84,7 @@ namespace tools {
 
             // 构建最终结果字符串
             std::string result = std::to_string(decimal_blocks.back());
-            for (int i = decimal_blocks.size() - 2; i >= 0; --i) {
+            for (i64 i = decimal_blocks.size() - 2; i >= 0; --i) {
                 std::string block = std::to_string(decimal_blocks[i]);
                 result += std::string(9 - block.size(), '0') + block; // 填充零补齐块长度
             }
@@ -116,40 +116,40 @@ namespace tools {
         }
 
 
-        //int test() {
-        //    for (size_t i = 1; i < 20; i++) {
-        //        std::string decimal = "";  // 任意大十进制数
-        //        for (size_t j = 0; j < pow(2, i); j++)
-        //        {
-        //            decimal += ('0' + (rand() / 3333) % 10);
-        //        }
-        //        auto t1 = tools::time::time_now();
-        //        auto binary = decimal_to_binary(decimal);
-        //        auto t2 = tools::time::time_now();
-        //        std::cout << "用时: " << (t2 - t1) << std::endl;
-        //        std::cout << "每位用时: " << (t2 - t1) / decimal.size() << std::endl;
-        //        //std::cout << "input: " << decimal << std::endl;
-        //        std::cout << "input.size(): " << decimal.size() << std::endl;
-        //        //std::cout << "out: "; print_binary(binary); std::cout << std::endl;
-        //        std::cout << "out.size(): " << binary.size() << std::endl;
-        //        std::cout << "exp 2^: " << i << std::endl;
-        //        std::cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << std::endl;
-        //        auto t3 = tools::time::time_now();
-        //        auto decimal2 = binary_to_decimal(binary);
-        //        auto t4 = tools::time::time_now();
-        //        std::cout << "用时: " << (t4 - t3) << std::endl;
-        //        std::cout << "每位用时: " << (t4 - t3) / decimal2.size() << std::endl;
-        //        //std::cout << "input: ";  print_binary(binary); std::cout << std::endl;
-        //        std::cout << "input.size(): " << binary.size() << std::endl;
-        //        //std::cout << "out: " << decimal2 << std::endl;
-        //        std::cout << "out.size(): " << decimal2.size() << std::endl;
-        //        std::cout << "exp 2^: " << i << std::endl;
-        //        std::cout << "input == out：" << (decimal == decimal2) << std::endl;
-        //
-        //        std::cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << std::endl << std::endl << std::endl << std::endl;
-        //    }
-        //    return 0;
-        //}
+        int test() {
+            for (size_t i = 1; i < 20; i++) {
+                std::string decimal = "";  // 任意大十进制数
+                for (size_t j = 0; j < pow(2, i); j++)
+                {
+                    decimal += ('0' + (rand() / 3333) % 10);
+                }
+                auto t1 = tools::time::time_now();
+                auto binary = decimal_to_binary(decimal);
+                auto t2 = tools::time::time_now();
+                std::cout << "用时: " << (t2 - t1) << std::endl;
+                std::cout << "每位用时: " << (t2 - t1) / decimal.size() << std::endl;
+                //std::cout << "input: " << decimal << std::endl;
+                std::cout << "input.size(): " << decimal.size() << std::endl;
+                //std::cout << "out: "; print_binary(binary); std::cout << std::endl;
+                std::cout << "out.size(): " << binary.size() << std::endl;
+                std::cout << "exp 2^: " << i << std::endl;
+                std::cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << std::endl;
+                auto t3 = tools::time::time_now();
+                auto decimal2 = binary_to_decimal(binary);
+                auto t4 = tools::time::time_now();
+                std::cout << "用时: " << (t4 - t3) << std::endl;
+                std::cout << "每位用时: " << (t4 - t3) / decimal2.size() << std::endl;
+                //std::cout << "input: ";  print_binary(binary); std::cout << std::endl;
+                std::cout << "input.size(): " << binary.size() << std::endl;
+                //std::cout << "out: " << decimal2 << std::endl;
+                std::cout << "out.size(): " << decimal2.size() << std::endl;
+                std::cout << "exp 2^: " << i << std::endl;
+                std::cout << "input == out：" << (decimal == decimal2) << std::endl;
+        
+                std::cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << std::endl << std::endl << std::endl << std::endl;
+            }
+            return 0;
+        }
 
 
     }
