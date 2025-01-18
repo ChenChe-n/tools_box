@@ -42,7 +42,7 @@
     <ClInclude Include="tools\module\big_number\input_out.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="tools\module\big_number\test.hpp">
+    <ClInclude Include="tools\module\big_number.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

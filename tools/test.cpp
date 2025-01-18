@@ -1,13 +1,16 @@
-#include "./../tools/module/big_number/test.hpp"
+#include "./../tools/module/big_number.hpp"
 
+void run_tests() {
+
+}
 
 int main() {
-	//tools::big_int::test_all();
-	tools::big_int::big_int a = { "17285691565913756196519563975" };
-    a = tools::big_int::big_int("141798415515");
-    std::cout << a.to_string() << std::endl;
-    std::cout << a.to_hex() << std::endl;
-    std::cout << a.to_bit() << std::endl;
-    std::cout << a.to_u32() << std::endl;
+    auto t3 = tools::time::time_now();
+
+    run_tests();
+
+    auto t4 = tools::time::time_now();
+    std::cout << "time：" << std::chrono::duration_cast<std::chrono::microseconds>(t4 - t3).count() << "us" << std::endl;
+
 	return 0;
 }
