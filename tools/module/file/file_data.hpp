@@ -1,7 +1,7 @@
 #pragma once
 
 
-#include "./../../../tools/base.hpp"
+#include "../../base.hpp"
 
 
 
@@ -11,8 +11,7 @@
 #include <fstream>
 
 
-namespace tools {
-	namespace file {
+namespace tools::file {
 		namespace fs = std::filesystem;
 
 		class file_data
@@ -30,5 +29,4 @@ namespace tools {
             size_t file_size_;
 		};
 
-	}
 }

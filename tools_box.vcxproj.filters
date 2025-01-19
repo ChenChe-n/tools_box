@@ -27,10 +27,7 @@
     <ClInclude Include="tools\module\file\file_err.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="tools\base\error.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tools\base\time.hpp">
+    <ClInclude Include="tools\module\time\time.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="tools\base\using.hpp">
@@ -45,6 +42,24 @@
     <ClInclude Include="tools\module\big_number.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="tools\module\thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\thread\data_box.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\platform\enable_high_precision_thread_scheduler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\data.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\data\bit_flag.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\time.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tools\test.cpp">
@@ -53,10 +68,13 @@
     <ClCompile Include="tools\module\big_number\big_int.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="tools\base\time.cpp">
+    <ClCompile Include="tools\module\time\time.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="tools\module\big_number\input_out.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\module\platform\enable_high_precision_thread_scheduler.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

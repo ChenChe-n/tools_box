@@ -133,20 +133,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="tools\base.hpp" />
-    <ClInclude Include="tools\base\time.hpp" />
+    <ClInclude Include="tools\module\time.hpp" />
+    <ClInclude Include="tools\module\time\time.hpp" />
     <ClInclude Include="tools\base\using.hpp" />
-    <ClInclude Include="tools\base\error.hpp" />
     <ClInclude Include="tools\module\big_number.hpp" />
     <ClInclude Include="tools\module\big_number\big_int.hpp" />
     <ClInclude Include="tools\module\big_number\input_out.hpp" />
+    <ClInclude Include="tools\module\data.hpp" />
+    <ClInclude Include="tools\module\data\bit_flag.hpp" />
     <ClInclude Include="tools\module\file.hpp" />
     <ClInclude Include="tools\module\file\file_data.hpp" />
     <ClInclude Include="tools\module\file\file_err.hpp" />
+    <ClInclude Include="tools\module\platform\enable_high_precision_thread_scheduler.hpp" />
+    <ClInclude Include="tools\module\thread.hpp" />
+    <ClInclude Include="tools\module\thread\data_box.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tools\base\time.cpp" />
+    <ClCompile Include="tools\module\time\time.cpp" />
     <ClCompile Include="tools\module\big_number\big_int.cpp" />
     <ClCompile Include="tools\module\big_number\input_out.cpp" />
+    <ClCompile Include="tools\module\platform\enable_high_precision_thread_scheduler.cpp" />
     <ClCompile Include="tools\test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

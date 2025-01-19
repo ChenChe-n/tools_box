@@ -1,9 +1,8 @@
 #pragma once
 
-#include "./../../../tools/base.hpp"
+#include "../../base.hpp"
 
-namespace tools {
-	namespace file {
+namespace tools::file {
 
-	}
+
 }

@@ -1,6 +1,5 @@
-#include "./../../tools/base/time.hpp"
-namespace tools {
-    namespace time {
+#include "time.hpp"
+namespace tools::time {
 
 
         // 获取单例实例
@@ -161,6 +160,4 @@ namespace tools {
         }
 
 
-
-}
 }
