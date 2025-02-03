@@ -21,75 +21,88 @@ namespace tools::thread {
     public:
         // 节点类
         struct node {
-            std::shared_ptr<T> data;      // 数据存储在智能指针中
+            T data;                      // 数据
             std::atomic<node*> next;     // 下一个节点指针
 
-            explicit node(T value) : data(std::make_shared<T>(std::move(value))), next(nullptr) {}
-            node() : data(nullptr), next(nullptr) {} // 空节点构造函数
+            // 节点构造函数
+            node(T value) : data(value), next(nullptr) {}
         };
-
-        queue() : head(new node()), tail(head.load()) {}
-
-        ~queue() {
-            while (auto old_head = head.exchange(nullptr)) {
-                delete old_head;
-            }
-        }
 
         // 禁止拷贝和赋值
         queue(const queue&) = delete;
         queue& operator=(const queue&) = delete;
 
+        // 构造函数
+        queue() {
+            // 初始化队列时，创建一个哨兵节点，头尾指针都指向它
+            node* dummy = new node(T{});
+            head.store(dummy);
+            tail.store(dummy);
+        }
+
+        // 析构函数
+        ~queue() {
+            // 清空队列并释放所有节点
+            while (pop().has_value());  // 清空队列
+            delete head.load();         // 删除最后的哨兵节点
+        }
+
         // 入队操作
         void push(T value) {
-            auto new_node = new node(std::move(value)); // 创建新节点
-            node* old_tail = nullptr;
+            // 创建一个新节点用于存储数据
+            node* new_node = new node(value);
 
+            // 尝试在队列尾部插入新节点
+            node* old_tail;
             while (true) {
-                old_tail = tail.load(std::memory_order_acquire); // 获取当前尾节点
-                node* next = old_tail->next.load(std::memory_order_acquire);
-                if (next == nullptr) { // 确保尾节点的 next 为空
-                    if (old_tail->next.compare_exchange_weak(next, new_node, std::memory_order_release, std::memory_order_relaxed)) {
-                        break;
+                old_tail = tail.load(); // 获取当前尾节点
+                node* next = old_tail->next.load();
+
+                // 如果当前尾节点的 next 为空，说明尾节点是实际的尾部
+                if (next == nullptr) {
+                    // 尝试将 new_node 设置为尾节点的 next
+                    if (old_tail->next.compare_exchange_weak(next, new_node)) {
+                        break; // 插入成功，退出循环
                     }
                 }
                 else {
-                    // 如果 tail 不一致，更新 tail 到最新节点
-                    tail.compare_exchange_weak(old_tail, next, std::memory_order_release, std::memory_order_relaxed);
+                    // 如果尾节点已被其他线程修改，则更新尾指针
+                    tail.compare_exchange_weak(old_tail, next);
                 }
             }
 
-            // 更新尾节点
-            tail.compare_exchange_strong(old_tail, new_node, std::memory_order_release, std::memory_order_relaxed);
+            // 更新尾指针，指向新节点
+            tail.compare_exchange_weak(old_tail, new_node);
         }
 
         // 出队操作
         std::optional<T> pop() {
-            node* old_head = nullptr;
+            node* old_head;
             while (true) {
-                old_head = head.load(std::memory_order_acquire); // 获取当前头节点
-                node* next = old_head->next.load(std::memory_order_acquire);
+                old_head = head.load();  // 获取当前头节点
+                node* next = old_head->next.load();
+
+                // 如果 next 为空，说明队列为空
                 if (next == nullptr) {
-                    // 队列为空
                     return std::nullopt;
                 }
-                // CAS 更新 head 到下一个节点
-                if (head.compare_exchange_weak(old_head, next, std::memory_order_release, std::memory_order_relaxed)) {
-                    break;
+
+                // 尝试移动头指针到下一个节点
+                if (head.compare_exchange_weak(old_head, next)) {
+                    break; // 成功移动头指针
                 }
             }
 
-            // 提取数据
-            auto result = *(old_head->next.load(std::memory_order_acquire)->data);
-            delete old_head; // 释放旧的头节点
+            // 取出下一个节点的数据并释放旧的头节点
+            T result = old_head->next.load()->data;
+            delete old_head;
             return result;
         }
 
         // 检查队列是否为空
         bool empty() const {
-            node* head_ptr = head.load(std::memory_order_acquire);
-            node* next_ptr = head_ptr->next.load(std::memory_order_acquire);
-            return next_ptr == nullptr;
+            // 如果头节点的 `next` 为空，则队列为空
+            return head.load()->next.load() == nullptr;
         }
 
     private:

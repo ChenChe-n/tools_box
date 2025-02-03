@@ -60,6 +60,1899 @@
     <ClInclude Include="tools\module\time.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="tools\module\net.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\net\base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\buffer_sequence_adapter.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\descriptor_ops.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\dev_poll_reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\dev_poll_reactor.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\epoll_reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\epoll_reactor.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\eventfd_select_interrupter.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\handler_tracking.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\io_uring_descriptor_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\io_uring_file_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\io_uring_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\io_uring_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\io_uring_socket_service_base.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\kqueue_reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\kqueue_reactor.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\null_event.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\pipe_select_interrupter.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\posix_event.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\posix_mutex.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\posix_serial_port_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\posix_thread.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\posix_tss_ptr.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\reactive_descriptor_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\reactive_socket_service_base.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\resolver_service_base.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\scheduler.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\select_reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\select_reactor.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\service_registry.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\service_registry.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\signal_set_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\socket_ops.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\socket_select_interrupter.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\strand_executor_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\strand_executor_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\strand_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\strand_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\thread_context.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\throw_error.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\timer_queue_ptime.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\timer_queue_set.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_event.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_iocp_file_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_iocp_handle_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_iocp_io_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_iocp_io_context.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_iocp_serial_port_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_iocp_socket_service_base.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_mutex.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_object_handle_service.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_static_mutex.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_thread.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\win_tss_ptr.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\winrt_ssocket_service_base.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\winrt_timer_scheduler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\winrt_timer_scheduler.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\impl\winsock_init.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\array.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\array_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\assert.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\atomic_count.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\base_from_cancellation_state.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\base_from_completion_cond.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\bind_handler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\blocking_executor_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\buffer_resize_guard.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\buffer_sequence_adapter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\buffered_stream_storage.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\call_stack.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\chrono.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\chrono_time_traits.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\completion_handler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\completion_message.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\completion_payload.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\completion_payload_handler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\composed_work.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\concurrency_hint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\conditionally_enabled_event.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\conditionally_enabled_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\config.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\consuming_buffers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\cstddef.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\cstdint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\date_time_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\deadline_timer_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\dependent_type.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\descriptor_ops.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\descriptor_read_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\descriptor_write_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\dev_poll_reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\epoll_reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\event.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\eventfd_select_interrupter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\exception.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\executor_function.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\executor_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\fd_set_adapter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\fenced_block.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\functional.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\future.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\global.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\handler_alloc_helpers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\handler_cont_helpers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\handler_tracking.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\handler_type_requirements.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\handler_work.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\hash_map.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\initiate_defer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\initiate_dispatch.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\initiate_post.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\initiation_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_control.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_object_impl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_descriptor_read_at_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_descriptor_read_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_descriptor_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_descriptor_write_at_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_descriptor_write_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_file_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_null_buffers_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_operation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_socket_accept_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_socket_connect_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_socket_recv_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_socket_recvfrom_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_socket_recvmsg_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_socket_send_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_socket_sendto_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_socket_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_socket_service_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\io_uring_wait_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\is_buffer_sequence.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\is_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\keyword_tss_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\kqueue_reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\limits.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\local_free_on_block_exit.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\memory.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\non_const_lvalue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\noncopyable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_event.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_fenced_block.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_global.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_signal_blocker.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_socket_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_static_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\null_tss_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\object_pool.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\old_win_sdk_compat.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\op_queue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\operation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\pipe_select_interrupter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\pop_options.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\posix_event.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\posix_fd_set_adapter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\posix_global.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\posix_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\posix_serial_port_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\posix_signal_blocker.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\posix_static_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\posix_thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\posix_tss_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\push_options.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_descriptor_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_null_buffers_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_socket_accept_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_socket_connect_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_socket_recv_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_socket_recvfrom_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_socket_recvmsg_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_socket_send_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_socket_sendto_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_socket_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_socket_service_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactive_wait_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactor_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\reactor_op_queue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\recycling_allocator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\regex_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\resolve_endpoint_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\resolve_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\resolve_query_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\resolver_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\resolver_service_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\scheduler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\scheduler_operation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\scheduler_task.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\scheduler_thread_info.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\scoped_lock.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\scoped_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\select_interrupter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\select_reactor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\service_registry.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\signal_blocker.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\signal_handler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\signal_init.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\signal_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\signal_set_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\socket_holder.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\socket_ops.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\socket_option.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\socket_select_interrupter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\socket_types.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\source_location.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\static_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\std_event.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\std_fenced_block.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\std_global.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\std_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\std_static_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\std_thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\strand_executor_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\strand_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\string_view.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\thread_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\thread_group.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\thread_info_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\throw_error.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\throw_exception.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\timed_cancel_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\timer_queue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\timer_queue_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\timer_queue_ptime.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\timer_queue_set.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\timer_scheduler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\timer_scheduler_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\tss_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\type_traits.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\utility.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\wait_handler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\wait_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_event.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_fd_set_adapter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_global.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_file_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_handle_read_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_handle_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_handle_write_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_io_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_null_buffers_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_operation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_overlapped_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_overlapped_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_serial_port_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_socket_accept_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_socket_connect_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_socket_recv_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_socket_recvfrom_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_socket_recvmsg_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_socket_send_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_socket_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_socket_service_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_thread_info.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_iocp_wait_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_object_handle_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_static_mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\win_tss_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winapp_thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\wince_thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_async_manager.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_async_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_resolve_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_resolver_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_socket_connect_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_socket_recv_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_socket_send_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_ssocket_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_ssocket_service_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_timer_scheduler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winrt_utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\winsock_init.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\work_dispatcher.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detail\wrapped_handler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\impl\bad_executor.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\allocator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\any_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\bad_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\blocking.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\blocking_adaptation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\context_as.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\invocable_archetype.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\mapping.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\occupancy.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\outstanding_work.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\prefer_only.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution\relationship.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\impl\channel_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\channel_operation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\channel_receive_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\channel_send_functions.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\channel_send_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\channel_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\coro_completion_handler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\coro_promise_allocator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\has_signature.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\detail\partial_promise.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\impl\as_single.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\impl\channel_error.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\impl\coro.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\impl\parallel_group.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\impl\promise.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\impl\use_coro.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\impl\use_promise.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\as_single.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\awaitable_operators.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\basic_channel.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\basic_concurrent_channel.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\cancellation_condition.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\channel.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\channel_error.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\channel_traits.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\co_composed.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\co_spawn.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\concurrent_channel.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\coro.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\coro_traits.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\parallel_group.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\promise.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\use_coro.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\experimental\use_promise.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\generic\detail\impl\endpoint.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\generic\detail\endpoint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\generic\basic_endpoint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\generic\datagram_protocol.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\generic\raw_protocol.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\generic\seq_packet_protocol.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\generic\stream_protocol.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\any_completion_executor.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\any_io_executor.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\append.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\as_tuple.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\awaitable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\buffered_read_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\buffered_write_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\cancel_after.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\cancel_at.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\cancellation_signal.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\co_spawn.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\config.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\config.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\connect.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\connect_pipe.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\connect_pipe.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\consign.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\deferred.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\detached.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\error.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\error_code.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\execution_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\execution_context.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\executor.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\io_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\io_context.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\multiple_exceptions.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\prepend.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\read.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\read_at.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\read_until.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\redirect_error.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\serial_port_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\serial_port_base.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\spawn.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\src.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\system_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\system_context.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\system_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\thread_pool.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\thread_pool.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\use_awaitable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\use_future.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\write.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\impl\write_at.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\detail\impl\endpoint.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\detail\endpoint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\detail\socket_option.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\address.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\address.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\address_v4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\address_v4.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\address_v6.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\address_v6.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\basic_endpoint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\host_name.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\network_v4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\network_v4.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\network_v6.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\impl\network_v6.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\address.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\address_v4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\address_v4_iterator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\address_v4_range.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\address_v6.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\address_v6_iterator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\address_v6_range.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\bad_address_cast.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\basic_endpoint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\basic_resolver.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\basic_resolver_entry.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\basic_resolver_iterator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\basic_resolver_query.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\basic_resolver_results.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\host_name.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\icmp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\multicast.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\network_v4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\network_v6.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\resolver_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\resolver_query_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\tcp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\udp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\unicast.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ip\v6_only.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\local\detail\impl\endpoint.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\local\detail\endpoint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\local\basic_endpoint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\local\connect_pair.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\local\datagram_protocol.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\local\seq_packet_protocol.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\local\stream_protocol.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\posix\basic_descriptor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\posix\basic_stream_descriptor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\posix\descriptor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\posix\descriptor_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\posix\stream_descriptor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\impl\engine.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\impl\openssl_init.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\buffered_handshake_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\engine.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\handshake_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\io.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\openssl_init.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\openssl_types.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\password_callback.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\read_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\shutdown_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\stream_core.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\verify_callback.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\detail\write_op.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\impl\context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\impl\context.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\impl\error.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\impl\host_name_verification.ipp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\impl\src.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\context_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\error.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\host_name_verification.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\stream_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\verify_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl\verify_mode.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\equality_comparable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\execute_member.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\prefer_free.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\prefer_member.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\query_free.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\query_member.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\query_static_constexpr_member.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\require_concept_free.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\require_concept_member.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\require_free.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\require_member.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\static_query.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\static_require.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\traits\static_require_concept.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ts\buffer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ts\executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ts\internet.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ts\io_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ts\net.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ts\netfwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ts\socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ts\timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\windows\basic_object_handle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\windows\basic_overlapped_handle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\windows\basic_random_access_handle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\windows\basic_stream_handle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\windows\object_handle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\windows\overlapped_handle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\windows\overlapped_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\windows\random_access_handle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\windows\stream_handle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\any_completion_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\any_completion_handler.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\any_io_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\append.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\as_tuple.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\associated_allocator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\associated_cancellation_slot.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\associated_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\associated_immediate_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\associator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\async_result.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\awaitable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_datagram_socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_deadline_timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_file.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_io_object.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_random_access_file.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_raw_socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_readable_pipe.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_seq_packet_socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_serial_port.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_signal_set.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_socket_acceptor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_socket_iostream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_socket_streambuf.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_stream_file.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_stream_socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_streambuf.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_streambuf_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_waitable_timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\basic_writable_pipe.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\bind_allocator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\bind_cancellation_slot.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\bind_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\bind_immediate_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\buffer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\buffer_registration.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\buffered_read_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\buffered_read_stream_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\buffered_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\buffered_stream_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\buffered_write_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\buffered_write_stream_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\buffers_iterator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\cancel_after.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\cancel_at.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\cancellation_signal.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\cancellation_state.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\cancellation_type.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\co_composed.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\co_spawn.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\completion_condition.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\compose.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\composed.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\config.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\connect.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\connect_pipe.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\consign.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\coroutine.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\deadline_timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\default_completion_token.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\defer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\deferred.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\detached.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\dispatch.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\disposition.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\error.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\error_code.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\execution_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\executor_work_guard.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\file_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\handler_continuation_hook.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\high_resolution_timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\immediate.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\io_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\io_context_strand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\is_applicable_property.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\is_contiguous_iterator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\is_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\is_read_buffered.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\is_write_buffered.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\multiple_exceptions.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\packaged_task.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\placeholders.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\post.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\prefer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\prepend.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\query.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\random_access_file.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\read.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\read_at.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\read_until.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\readable_pipe.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\recycling_allocator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\redirect_error.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\registered_buffer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\require.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\require_concept.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\serial_port.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\serial_port_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\signal_set.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\signal_set_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\socket_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\spawn.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\ssl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\static_thread_pool.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\steady_timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\strand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\stream_file.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\streambuf.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\system_context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\system_error.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\system_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\system_timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\this_coro.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\thread_pool.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\time_traits.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\unyield.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\use_awaitable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\use_future.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\uses_executor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\version.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\wait_traits.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\writable_pipe.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\write.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\write_at.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio\yield.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\import\include\asio.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\virtual_machine.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\virtual_machine\virtual_machine_interpreter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\base\size.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -75,6 +1968,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="tools\module\platform\enable_high_precision_thread_scheduler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\module\virtual_machine\virtual_machine_interpreter.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
