@@ -3,7 +3,12 @@
 #ifdef _WIN32
 #include "enable_high_precision_thread_scheduler.hpp"
 
-// 初始化windows平台终端为utf-8
+#include <Windows.h>
+#include <stdexcept>
+#include <mmsystem.h> 
+#pragma comment(lib, "winmm.lib")
+
+// 初始化windows平台为高精度线程调度器
 windows_high_precision_clock& windows_high_precision_clock::getInstance()
 {
 	static windows_high_precision_clock instance;

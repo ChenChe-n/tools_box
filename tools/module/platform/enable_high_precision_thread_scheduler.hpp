@@ -3,10 +3,6 @@
 // 如果为windows平台
 #ifdef _WIN32
 
-#include <Windows.h>
-#include <stdexcept>
-#include <mmsystem.h> 
-#pragma comment(lib, "winmm.lib")
 
 class windows_high_precision_clock
 {
