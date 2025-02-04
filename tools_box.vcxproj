@@ -762,6 +762,7 @@
     <ClInclude Include="tools\import\include\asio\yield.hpp" />
     <ClInclude Include="tools\module\net.hpp" />
     <ClInclude Include="tools\module\net\base.hpp" />
+    <ClInclude Include="tools\module\thread\pool.hpp" />
     <ClInclude Include="tools\module\time.hpp" />
     <ClInclude Include="tools\module\time\time.hpp" />
     <ClInclude Include="tools\base\using.hpp" />
@@ -772,10 +773,9 @@
     <ClInclude Include="tools\module\data\bit_flag.hpp" />
     <ClInclude Include="tools\module\file.hpp" />
     <ClInclude Include="tools\module\file\file_data.hpp" />
-    <ClInclude Include="tools\module\file\file_err.hpp" />
     <ClInclude Include="tools\module\platform\enable_high_precision_thread_scheduler.hpp" />
     <ClInclude Include="tools\module\thread.hpp" />
-    <ClInclude Include="tools\module\thread\data_box.hpp" />
+    <ClInclude Include="tools\module\thread\thread_data.hpp" />
     <ClInclude Include="tools\module\virtual_machine.hpp" />
     <ClInclude Include="tools\module\virtual_machine\virtual_machine_interpreter.hpp" />
   </ItemGroup>

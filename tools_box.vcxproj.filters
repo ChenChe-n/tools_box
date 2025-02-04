@@ -24,9 +24,6 @@
     <ClInclude Include="tools\module\file\file_data.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="tools\module\file\file_err.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="tools\module\time\time.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -45,7 +42,7 @@
     <ClInclude Include="tools\module\thread.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="tools\module\thread\data_box.hpp">
+    <ClInclude Include="tools\module\thread\thread_data.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="tools\module\platform\enable_high_precision_thread_scheduler.hpp">
@@ -1951,6 +1948,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="tools\base\size.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\thread\pool.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
