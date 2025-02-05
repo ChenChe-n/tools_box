@@ -1944,13 +1944,13 @@
     <ClInclude Include="tools\module\virtual_machine.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="tools\module\virtual_machine\virtual_machine_interpreter.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="tools\base\size.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="tools\module\thread\pool.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\module\virtual_machine\virtual_machine.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1968,9 +1968,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="tools\module\platform\enable_high_precision_thread_scheduler.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\module\virtual_machine\virtual_machine_interpreter.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -777,7 +777,7 @@
     <ClInclude Include="tools\module\thread.hpp" />
     <ClInclude Include="tools\module\thread\thread_data.hpp" />
     <ClInclude Include="tools\module\virtual_machine.hpp" />
-    <ClInclude Include="tools\module\virtual_machine\virtual_machine_interpreter.hpp" />
+    <ClInclude Include="tools\module\virtual_machine\virtual_machine.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tools\module\time\time.cpp" />
@@ -785,7 +785,6 @@
     <ClCompile Include="tools\module\big_number\input_out.cpp" />
     <ClCompile Include="tools\module\platform\enable_high_precision_thread_scheduler.cpp" />
     <ClCompile Include="test.cpp" />
-    <ClCompile Include="tools\module\virtual_machine\virtual_machine_interpreter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />
