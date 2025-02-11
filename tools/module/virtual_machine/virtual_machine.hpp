@@ -107,12 +107,15 @@ namespace tools {
 		// 编译器
 		i64 compile(std::u32string& source_code);
 
+
+
+
 		// 重置程序
 		i64 reset();
 
 		// 解释器
 		// INT64_MIN 代表执行时间不足，遇到最大运行次数限制暂停运行。
-		i64 execute(u64 run_command_size = i64_max);
+		i64 execute(u64 run_command_size = tools::size::max<u64>());
 	private:
 		// 内存分区(0->∞) [信息区|代码区|数据区|栈区|堆区>>>>>>]
 		// 原始程序数据，不可修改，不存储栈和堆。

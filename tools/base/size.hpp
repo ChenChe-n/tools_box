@@ -2,31 +2,31 @@
 #include "using.hpp"
 
 #include <limits>
-// 整数类型
-constexpr i8 i8_max = std::numeric_limits<i8>::max();
-constexpr i8 i8_min = std::numeric_limits<i8>::min();
-constexpr u8 u8_max = std::numeric_limits<u8>::max();
-constexpr u8 u8_min = std::numeric_limits<u8>::min();
 
-constexpr i16 i16_max = std::numeric_limits<i16>::max();
-constexpr i16 i16_min = std::numeric_limits<i16>::min();
-constexpr u16 u16_max = std::numeric_limits<u16>::max();
-constexpr u16 u16_min = std::numeric_limits<u16>::min();
+namespace tools::size {
+    // 获取最大值
+    template <typename T>
+    constexpr T max() noexcept {
+        return std::numeric_limits<T>::max();
+    }
+    // 获取最小值
+    template <typename T>
+    constexpr T min() noexcept {
+        return std::numeric_limits<T>::lowest();
+    }
 
-constexpr i32 i32_max = std::numeric_limits<i32>::max();
-constexpr i32 i32_min = std::numeric_limits<i32>::min();
-constexpr u32 u32_max = std::numeric_limits<u32>::max();
-constexpr u32 u32_min = std::numeric_limits<u32>::min();
-
-constexpr i64 i64_max = std::numeric_limits<i64>::max();
-constexpr i64 i64_min = std::numeric_limits<i64>::min();
-constexpr u64 u64_max = std::numeric_limits<u64>::max();
-constexpr u64 u64_min = std::numeric_limits<u64>::min();
-
-
-// 浮点类型
-constexpr f32 f32_max = std::numeric_limits<f32>::max();
-constexpr f32 f32_min = std::numeric_limits<f32>::lowest();
-
-constexpr f64 f64_max = std::numeric_limits<f64>::max();
-constexpr f64 f64_min = std::numeric_limits<f64>::lowest();
+	constexpr u64 k		= 1000;
+	constexpr u64 ki	= 1024;
+    constexpr u64 m		= k * k;
+    constexpr u64 mi	= ki * ki;
+    constexpr u64 g		= m * k;
+    constexpr u64 gi	= mi * ki;
+    constexpr u64 t		= g * k;
+    constexpr u64 ti	= gi * ki;
+    constexpr u64 p		= t * k;
+    constexpr u64 pi	= ti * ki;
+    constexpr u64 e		= p * k;
+    constexpr u64 ei	= pi * ki;
+    constexpr u64 z		= e * k;
+    constexpr u64 zi	= ei * ki;
+}

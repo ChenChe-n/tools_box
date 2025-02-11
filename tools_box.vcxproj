@@ -772,7 +772,7 @@
     <ClInclude Include="tools\module\data.hpp" />
     <ClInclude Include="tools\module\data\bit_flag.hpp" />
     <ClInclude Include="tools\module\file.hpp" />
-    <ClInclude Include="tools\module\file\file_data.hpp" />
+    <ClInclude Include="tools\module\file\file.hpp" />
     <ClInclude Include="tools\module\platform\enable_high_precision_thread_scheduler.hpp" />
     <ClInclude Include="tools\module\thread.hpp" />
     <ClInclude Include="tools\module\thread\thread_data.hpp" />
@@ -780,6 +780,7 @@
     <ClInclude Include="tools\module\virtual_machine\virtual_machine.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="tools\module\file\file.cpp" />
     <ClCompile Include="tools\module\time\time.cpp" />
     <ClCompile Include="tools\module\big_number\big_int.cpp" />
     <ClCompile Include="tools\module\big_number\input_out.cpp" />

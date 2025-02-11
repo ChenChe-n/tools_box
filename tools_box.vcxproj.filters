@@ -21,7 +21,7 @@
     <ClInclude Include="tools\module\file.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="tools\module\file\file_data.hpp">
+    <ClInclude Include="tools\module\file\file.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="tools\module\time\time.hpp">
@@ -1968,6 +1968,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="tools\module\platform\enable_high_precision_thread_scheduler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\module\file\file.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
